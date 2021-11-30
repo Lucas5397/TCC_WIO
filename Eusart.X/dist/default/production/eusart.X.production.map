@@ -1,0 +1,1417 @@
+Microchip MPLAB XC8 Compiler V2.00 ()
+
+Linker command line:
+
+-W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v2.00\pic\dat\en_msgs.txt \
+  -cs -h+dist/default/production\eusart.X.production.sym \
+  --cmf=dist/default/production\eusart.X.production.cmf -z -Q16F887 \
+  -oC:\Users\20185315\AppData\Local\Temp\sbjk.2 \
+  -Mdist/default/production/eusart.X.production.map -E1 -ver=XC8 \
+  --acfsm=1493 -ASTACK=0110h-016fh -pstack=STACK -ACODE=00h-07FFhx4 \
+  -ASTRCODE=00h-01FFFh -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 \
+  -AENTRY=00h-0FFhx32 -ACOMMON=070h-07Fh -ABANK0=020h-06Fh \
+  -ABANK1=0A0h-0EFh -ABANK2=0110h-016Fh -ABANK3=0190h-01EFh \
+  -ARAM=020h-06Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh \
+  -AABS1=020h-07Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh -ASFR0=00h-01Fh \
+  -ASFR1=080h-09Fh -ASFR2=0100h-010Fh -ASFR3=0180h-018Fh \
+  -preset_vec=00h,intentry=04h,init,end_init -ppowerup=CODE -pcinit=CODE \
+  -pfunctab=ENTRY -ACONFIG=02007h-02008h -pconfig=CONFIG -DCONFIG=2 \
+  -AIDLOC=02000h-02003h -pidloc=IDLOC -DIDLOC=2 -AEEDATA=00h-0FFh/02100h \
+  -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
+  -DENTRY=2 -k C:\Users\20185315\AppData\Local\Temp\sbjk.o \
+  dist/default/production\eusart.X.production.o 
+
+Object code version is 3.11
+
+Machine type is 16F887
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\20185315\AppData\Local\Temp\sbjk.o
+                end_init                              E        E        3        8       0
+                reset_vec                             0        0        3        0       0
+                config                             2007     2007        2     400E       0
+dist/default/production\eusart.X.production.o
+                cinit                                11       11       43        8       0
+                functab                              54       54       27       A8       0
+                intentry                              4        4        A        8       0
+                text23                              F5C      F5C       15     1EB8       0
+                text22                              F86      F86       16     1F0C       0
+                text21                              FB4      FB4       1F     1F68       0
+                text20                              F12      F12        5     1E24       0
+                text19                              F2E      F2E        A     1E5C       0
+                text18                              7A7      7A7       3E      3EA       0
+                text17                              2E9      2E9       D6      3EA       0
+                text16                              3BF      3BF       AF      3EA       0
+                text15                              F9C      F9C       18     1F38       0
+                text14                              574      574       73      3EA       0
+                text13                              FD3      FD3       2D     1FA6       0
+                text12                              46E      46E       84      3EA       0
+                text11                              F71      F71       15     1EE2       0
+                text10                              656      656       5F      3EA       0
+                text9                               F17      F17        7     1E2E       0
+                text8                               767      767       40      3EA       0
+                text7                               6B5      6B5       5E      3EA       0
+                text6                                E2       E2       1E       F6       0
+                text5                               F1E      F1E        8     1E3C       0
+                text4                               4F2      4F2       82      3EA       0
+                text3                               5E7      5E7       6F      3EA       0
+                text2                               713      713       54      3EA       0
+                text1                               F38      F38       11     1E70       0
+                maintext                            1F5      1F5       F4      3EA       0
+                cstackBANK0                          20       20       2C       20       1
+                cstackCOMMON                         70       70        7       70       1
+                clrtext                             F26      F26        8     1E4C       0
+                inittext                            F49      F49       13     1E92       0
+                dataBANK3                           190      190       32      190       1
+                bssBANK3                            1C2      1C2       14      190       1
+                dataBANK1                            A0       A0       35       A0       1
+                bssBANK1                             D5       D5       10       A0       1
+                dataBANK0                            4C       4C       1B       20       1
+                bssBANK0                             67       67        3       20       1
+                bssCOMMON                            77       77        1       70       1
+                strings                             100      100       F5      200       0
+                idataBANK3                           B0       B0       32       F6       0
+                idataBANK1                           7B       7B       35       F6       0
+                idataBANK0                          7E5      7E5       1B      3EA       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                end_init                              E        E        3         0
+                cinit                                11       11       43         0
+                intentry                              4        4        A         0
+                reset_vec                             0        0        3         0
+                text23                              F5C      F5C       15         0
+                text22                              F86      F86       16         0
+                text21                              FB4      FB4       1F         0
+                text20                              F12      F12        5         0
+                text19                              F2E      F2E        A         0
+                text18                              7A7      7A7       3E         0
+                text17                              2E9      2E9       D6         0
+                text16                              3BF      3BF       AF         0
+                text15                              F9C      F9C       18         0
+                text14                              574      574       73         0
+                text13                              FD3      FD3       2D         0
+                text12                              46E      46E       84         0
+                text11                              F71      F71       15         0
+                text10                              656      656       5F         0
+                text9                               F17      F17        7         0
+                text8                               767      767       40         0
+                text7                               6B5      6B5       5E         0
+                text6                                E2       E2       1E         0
+                text5                               F1E      F1E        8         0
+                text4                               4F2      4F2       82         0
+                text3                               5E7      5E7       6F         0
+                text2                               713      713       54         0
+                text1                               F38      F38       11         0
+                maintext                            1F5      1F5       F4         0
+                clrtext                             F26      F26        8         0
+                inittext                            F49      F49       13         0
+                idataBANK3                           B0       B0       32         0
+                idataBANK1                           7B       7B       35         0
+                idataBANK0                          7E5      7E5       1B         0
+
+        CLASS   STRCODE        
+
+        CLASS   STRING         
+                strings                             100      100       F5         0
+
+        CLASS   CONST          
+
+        CLASS   ENTRY          
+                functab                              54       54       27         0
+
+        CLASS   COMMON         
+                cstackCOMMON                         70       70        7         1
+                bssCOMMON                            77       77        1         1
+
+        CLASS   BANK0          
+                cstackBANK0                          20       20       2C         1
+                dataBANK0                            4C       4C       1B         1
+                bssBANK0                             67       67        3         1
+
+        CLASS   BANK1          
+                dataBANK1                            A0       A0       35         1
+                bssBANK1                             D5       D5       10         1
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+                dataBANK3                           190      190       32         1
+                bssBANK3                            1C2      1C2       14         1
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+                abs_s1                               7E       7E        2         1
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   SFR2           
+
+        CLASS   SFR3           
+
+        CLASS   CONFIG         
+                config                             2007     2007        2         0
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vec                      000000  000003  000003         0       0  CODE        2
+                intentry                       000004  000050  000054         8       0  CODE        2
+                cstackBANK0                    000020  00004A  00006A        20       1  BANK0       1
+                cstackCOMMON                   000070  000008  000078        70       1  COMMON      1
+                dataBANK1                      0000A0  000045  0000E5        A0       1  BANK1       1
+                functab                        000054  000027  00007B        A8       0  ENTRY       2
+                idataBANK1                     00007B  000085  000100        F6       0  CODE        2
+                dataBANK3                      000190  000046  0001D6       190       1  BANK3       1
+                strings                        000100  0000F5  0001F5       200       0  STRING      2
+                maintext                       0001F5  00060B  000800       3EA       0  CODE        2
+                text20                         000F12  000005  000F17      1E24       0  CODE        2
+                text9                          000F17  000007  000F1E      1E2E       0  CODE        2
+                text5                          000F1E  000008  000F26      1E3C       0  CODE        2
+                clrtext                        000F26  000008  000F2E      1E4C       0  CODE        2
+                text19                         000F2E  00000A  000F38      1E5C       0  CODE        2
+                text1                          000F38  000011  000F49      1E70       0  CODE        2
+                inittext                       000F49  000013  000F5C      1E92       0  CODE        2
+                text23                         000F5C  000015  000F71      1EB8       0  CODE        2
+                text11                         000F71  000015  000F86      1EE2       0  CODE        2
+                text22                         000F86  000016  000F9C      1F0C       0  CODE        2
+                text15                         000F9C  000018  000FB4      1F38       0  CODE        2
+                text21                         000FB4  00001F  000FD3      1F68       0  CODE        2
+                text13                         000FD3  00002D  001000      1FA6       0  CODE        2
+                config                         002007  000002  002009      400E       0  CONFIG      2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            006A-006F              6           1
+        BANK1            00E5-00EF              B           1
+        BANK2            0110-016F             60           1
+        BANK3            01D6-01EF             1A           1
+        CODE             0003-0003              1           2
+                         0800-0F11            712
+                         1000-1FFF            800
+        COMMON           0078-007D              6           1
+        CONST            0003-0003              1           2
+                         0800-0F11            100
+                         1000-1FFF            100
+        EEDATA           2100-21FF            100           2
+        ENTRY            0003-0003              1           2
+                         0800-0F11            100
+                         1000-1FFF            100
+        IDLOC            2000-2003              4           2
+        RAM              006A-006F              6           1
+                         00E5-00EF              B
+                         0110-016F             60
+                         01D6-01EF             1A
+        SFR0             0000-001F             20           1
+        SFR1             0080-009F             20           1
+        SFR2             0100-010F             10           1
+        SFR3             0180-018F             10           1
+        STACK            0110-016F             60           1
+        STRCODE          0003-0003              1           2
+                         0800-0F11            712
+                         1000-1FFF           1000
+        STRING           0003-0003              1           2
+                         0800-0F11            100
+                         1000-1FFF            100
+
+                                  Symbol Table
+
+?___awdiv                   cstackBANK0  0020
+?___lldiv                   cstackBANK0  0020
+Wifi_cipsend@F1413          dataBANK1    00A0
+Wifi_cipsend@F1415          dataBANK3    01AE
+Wifi_connect@F1399          dataBANK3    0190
+Wifi_connect@i              cstackBANK0  0048
+Wifi_connect@pass           cstackBANK0  0025
+Wifi_connect@ssid           cstackBANK0  0024
+Wifi_connect@str            cstackBANK0  002A
+Wifi_mode@d                 cstackBANK0  0024
+_BAUDCTLbits                (abs)        0187
+_INTCONbits                 (abs)        000B
+_LCDbits                    (abs)        0008
+_PIE1bits                   (abs)        008C
+_PIR1bits                   (abs)        000C
+_RCREG                      (abs)        001A
+_RCSTAbits                  (abs)        0018
+_SPBRbits                   (abs)        0099
+_TRISDbits                  (abs)        0088
+_TXREG                      (abs)        0019
+_TXSTAbits                  (abs)        0098
+_Wifi_autoconnect           (abs)        0000
+_Wifi_cipsend               (abs)        0000
+_Wifi_config_cliente        (abs)        0000
+_Wifi_config_servidor       (abs)        0000
+_Wifi_connect               text17       02E9
+_Wifi_ip                    (abs)        0000
+_Wifi_mode                  text16       03BF
+_Wifi_scan                  (abs)        0000
+__CFG_BOR4V$BOR40V          (abs)        0000
+__CFG_BOREN$OFF             (abs)        0000
+__CFG_CP$OFF                (abs)        0000
+__CFG_CPD$OFF               (abs)        0000
+__CFG_FCMEN$OFF             (abs)        0000
+__CFG_FOSC$HS               (abs)        0000
+__CFG_IESO$OFF              (abs)        0000
+__CFG_LVP$OFF               (abs)        0000
+__CFG_MCLRE$OFF             (abs)        0000
+__CFG_PWRTE$OFF             (abs)        0000
+__CFG_WDTE$OFF              (abs)        0000
+__CFG_WRT$OFF               (abs)        0000
+__Habs1                     abs1         0000
+__Hbank0                    bank0        0000
+__Hbank1                    bank1        0000
+__Hbank2                    bank2        0000
+__Hbank3                    bank3        0000
+__HbssBANK0                 bssBANK0     0000
+__HbssBANK1                 bssBANK1     0000
+__HbssBANK3                 bssBANK3     0000
+__HbssCOMMON                bssCOMMON    0000
+__Hcinit                    cinit        0054
+__Hclrtext                  clrtext      0000
+__Hcode                     code         0000
+__Hcommon                   common       0000
+__Hconfig                   config       2009
+__HcstackBANK0              cstackBANK0  0000
+__HcstackCOMMON             cstackCOMMON 0000
+__HdataBANK0                dataBANK0    0000
+__HdataBANK1                dataBANK1    0000
+__HdataBANK3                dataBANK3    0000
+__Heeprom_data              eeprom_data  0000
+__Hend_init                 end_init     0011
+__Hfunctab                  functab      007B
+__HidataBANK0               idataBANK0   0000
+__HidataBANK1               idataBANK1   0000
+__HidataBANK3               idataBANK3   0000
+__Hidloc                    idloc        0000
+__Hinit                     init         000E
+__Hinittext                 inittext     0000
+__Hintentry                 intentry     000E
+__Hmaintext                 maintext     0000
+__Hpowerup                  powerup      0000
+__Hram                      ram          0000
+__Hreset_vec                reset_vec    0003
+__Hsfr0                     sfr0         0000
+__Hsfr1                     sfr1         0000
+__Hsfr2                     sfr2         0000
+__Hsfr3                     sfr3         0000
+__Hspace_0                  (abs)        2009
+__Hspace_1                  (abs)        01D6
+__Hspace_2                  (abs)        0000
+__Hspace_3                  (abs)        0000
+__Hstack                    stack        0000
+__Hstrings                  strings      0000
+__Htext                     text         0000
+__Labs1                     abs1         0000
+__Lbank0                    bank0        0000
+__Lbank1                    bank1        0000
+__Lbank2                    bank2        0000
+__Lbank3                    bank3        0000
+__LbssBANK0                 bssBANK0     0000
+__LbssBANK1                 bssBANK1     0000
+__LbssBANK3                 bssBANK3     0000
+__LbssCOMMON                bssCOMMON    0000
+__Lcinit                    cinit        0011
+__Lclrtext                  clrtext      0000
+__Lcode                     code         0000
+__Lcommon                   common       0000
+__Lconfig                   config       2007
+__LcstackBANK0              cstackBANK0  0000
+__LcstackCOMMON             cstackCOMMON 0000
+__LdataBANK0                dataBANK0    0000
+__LdataBANK1                dataBANK1    0000
+__LdataBANK3                dataBANK3    0000
+__Leeprom_data              eeprom_data  0000
+__Lend_init                 end_init     000E
+__Lfunctab                  functab      0054
+__LidataBANK0               idataBANK0   0000
+__LidataBANK1               idataBANK1   0000
+__LidataBANK3               idataBANK3   0000
+__Lidloc                    idloc        0000
+__Linit                     init         000E
+__Linittext                 inittext     0000
+__Lintentry                 intentry     0004
+__Lmaintext                 maintext     0000
+__Lpowerup                  powerup      0000
+__Lram                      ram          0000
+__Lreset_vec                reset_vec    0000
+__Lsfr0                     sfr0         0000
+__Lsfr1                     sfr1         0000
+__Lsfr2                     sfr2         0000
+__Lsfr3                     sfr3         0000
+__Lspace_0                  (abs)        0000
+__Lspace_1                  (abs)        0000
+__Lspace_2                  (abs)        0000
+__Lspace_3                  (abs)        0000
+__Lstack                    stack        0000
+__Lstrings                  strings      0000
+__Ltext                     text         0000
+__S0                        (abs)        2009
+__S1                        (abs)        01D6
+__S2                        (abs)        0000
+__S3                        (abs)        0000
+___awdiv                    text14       0574
+___awdiv@counter            cstackBANK0  0024
+___awdiv@dividend           cstackBANK0  0022
+___awdiv@divisor            cstackBANK0  0020
+___awdiv@quotient           cstackBANK0  0026
+___awdiv@sign               cstackBANK0  0025
+___int_sp                   stack        0000
+___latbits                  (abs)        0002
+___lldiv                    text3        05E7
+___lldiv@counter            cstackBANK0  002C
+___lldiv@dividend           cstackBANK0  0024
+___lldiv@divisor            cstackBANK0  0020
+___lldiv@quotient           cstackBANK0  0028
+___sp                       stack        0000
+__end_of_Wifi_connect       text17       03BF
+__end_of_Wifi_mode          text16       046E
+__end_of___awdiv            text14       05E7
+__end_of___lldiv            text3        0656
+__end_of__fptable           functab      007B
+__end_of__initialization    cinit        0050
+__end_of__stringtab         strings      0110
+__end_of_canal_comunicacao  text15       0FB4
+__end_of_delay              text21       0FD3
+__end_of_dispLCD            text10       06B5
+__end_of_dispLCD_clr        text9        0F1E
+__end_of_dispLCD_dataReg    text13       1000
+__end_of_dispLCD_init       text7        0713
+__end_of_dispLCD_instReg    text12       04F2
+__end_of_dispLCD_lincol     text11       0F86
+__end_of_dispLCD_newChar    text8        07A7
+__end_of_fifo_filtro        text4        0574
+__end_of_fifo_inserir       text23       0F71
+__end_of_fifo_retirar       text6        0100
+__end_of_fifo_tam           text5        0F26
+__end_of_initEUSART         text2        0767
+__end_of_isr                text22       0F9C
+__end_of_main               maintext     02E9
+__end_of_newChar_degree     strings      0118
+__end_of_txEUSART           text20       0F17
+__end_of_txStatusEUSART     text19       0F38
+__end_of_wifi_init          text1        0F49
+__end_of_wifi_send          text18       07E5
+__fptable                   functab      0054
+__initialization            cinit        0011
+__pbssBANK0                 bssBANK0     0067
+__pbssBANK1                 bssBANK1     00D5
+__pbssBANK3                 bssBANK3     01C2
+__pbssCOMMON                bssCOMMON    0077
+__pcstackBANK0              cstackBANK0  0020
+__pcstackCOMMON             cstackCOMMON 0070
+__pdataBANK0                dataBANK0    004C
+__pdataBANK1                dataBANK1    00A0
+__pdataBANK3                dataBANK3    0190
+__pfunctab                  functab      0054
+__pidataBANK0               idataBANK0   07E5
+__pidataBANK1               idataBANK1   007B
+__pidataBANK3               idataBANK3   00B0
+__pintentry                 intentry     0004
+__pmaintext                 maintext     01F5
+__pstrings                  strings      0100
+__ptext1                    text1        0F38
+__ptext10                   text10       0656
+__ptext11                   text11       0F71
+__ptext12                   text12       046E
+__ptext13                   text13       0FD3
+__ptext14                   text14       0574
+__ptext15                   text15       0F9C
+__ptext16                   text16       03BF
+__ptext17                   text17       02E9
+__ptext18                   text18       07A7
+__ptext19                   text19       0F2E
+__ptext2                    text2        0713
+__ptext20                   text20       0F12
+__ptext21                   text21       0FB4
+__ptext22                   text22       0F86
+__ptext23                   text23       0F5C
+__ptext3                    text3        05E7
+__ptext4                    text4        04F2
+__ptext5                    text5        0F1E
+__ptext6                    text6        00E2
+__ptext7                    text7        06B5
+__ptext8                    text8        0767
+__ptext9                    text9        0F17
+__size_of_Wifi_connect      (abs)        0000
+__size_of_Wifi_mode         (abs)        0000
+__size_of___awdiv           (abs)        0000
+__size_of___lldiv           (abs)        0000
+__size_of__fptable          (abs)        0000
+__size_of_canal_comunicacao (abs)        0000
+__size_of_delay             (abs)        0000
+__size_of_dispLCD           (abs)        0000
+__size_of_dispLCD_clr       (abs)        0000
+__size_of_dispLCD_dataReg   (abs)        0000
+__size_of_dispLCD_init      (abs)        0000
+__size_of_dispLCD_instReg   (abs)        0000
+__size_of_dispLCD_lincol    (abs)        0000
+__size_of_dispLCD_newChar   (abs)        0000
+__size_of_fifo_filtro       (abs)        0000
+__size_of_fifo_inserir      (abs)        0000
+__size_of_fifo_retirar      (abs)        0000
+__size_of_fifo_tam          (abs)        0000
+__size_of_initEUSART        (abs)        0000
+__size_of_isr               (abs)        0000
+__size_of_main              (abs)        0000
+__size_of_txEUSART          (abs)        0000
+__size_of_txStatusEUSART    (abs)        0000
+__size_of_wifi_init         (abs)        0000
+__size_of_wifi_send         (abs)        0000
+__stringbase                strings      010F
+__stringtab                 strings      0100
+_aux                        bssBANK3     01C2
+_canal_comunicacao          text15       0F9C
+_delay                      text21       0FB4
+_dispLCD                    text10       0656
+_dispLCD_B0                 (abs)        0000
+_dispLCD_B1                 (abs)        0000
+_dispLCD_clr                text9        0F17
+_dispLCD_dataReg            text13       0FD3
+_dispLCD_init               text7        06B5
+_dispLCD_instReg            text12       046E
+_dispLCD_lincol             text11       0F71
+_dispLCD_newChar            text8        0767
+_dispLCD_num                (abs)        0000
+_dispLCDstr                 (abs)        0000
+_eusart                     dataBANK0    0058
+_fifo                       bssBANK1     00D5
+_fifo_filtro                text4        04F2
+_fifo_head                  bssBANK0     0068
+_fifo_inserir               text23       0F5C
+_fifo_retirar               text6        00E2
+_fifo_tail                  bssBANK0     0067
+_fifo_tam                   text5        0F1E
+_indice                     bssBANK0     0069
+_initEUSART                 text2        0713
+_isr                        text22       0F86
+_lcd                        dataBANK0    0060
+_main                       maintext     01F5
+_newChar_degree             strings      0110
+_rxEUSART                   (abs)        0000
+_rxErrorEUSART              (abs)        0000
+_rxResetErrorEUSART         (abs)        0000
+_rxStatusEUSART             (abs)        0000
+_search                     (abs)        0000
+_txEUSART                   text20       0F12
+_txStatusEUSART             text19       0F2E
+_vtr                        dataBANK1    00B4
+_wifi                       dataBANK0    004C
+_wifi_init                  text1        0F38
+_wifi_receive               (abs)        0000
+_wifi_send                  text18       07A7
+btemp                       (abs)        007E
+clear_ram0                  clrtext      0F26
+delay@t                     cstackBANK0  0020
+dispLCD@col                 cstackBANK0  002C
+dispLCD@cont                cstackBANK0  002F
+dispLCD@lin                 cstackBANK0  002B
+dispLCD@str                 cstackBANK0  002D
+dispLCD_dataReg@d           cstackBANK0  0020
+dispLCD_instReg@i           cstackCOMMON 0076
+dispLCD_lincol@col          cstackBANK0  0028
+dispLCD_lincol@lin          cstackBANK0  002A
+dispLCD_newChar@adrs        cstackBANK0  0024
+dispLCD_newChar@i           cstackBANK0  0025
+dispLCD_newChar@ptr         cstackBANK0  0022
+end_of_initialization       cinit        0050
+entry__wifi_init            functab      0078
+entry__wifi_send            functab      0060
+fifo_filtro@d               cstackBANK0  0024
+fifo_inserir@d              cstackCOMMON 0072
+fifo_retirar@aux            cstackCOMMON 0076
+fpbase                      functab      0059
+fptable                     functab      0054
+fptotal                     (abs)        0016
+initEUSART@baudRate         cstackBANK0  002D
+init_fetch0                 inittext     0F49
+init_ram0                   inittext     0F4D
+interrupt_function          intentry     0004
+intlevel0                   functab      0054
+intlevel1                   functab      0054
+intlevel2                   functab      0054
+intlevel3                   functab      0054
+intlevel4                   functab      0054
+intlevel5                   functab      0054
+main@a                      cstackBANK0  004B
+reset_vec                   reset_vec    0000
+saved_w                     (abs)        007E
+stackhi                     (abs)        0000
+stacklo                     (abs)        0000
+start                       init         000E
+start_initialization        cinit        0011
+txEUSART@d                  cstackCOMMON 0076
+wifi_init@br                cstackBANK0  0037
+wifi_send@msg               cstackBANK0  0020
+wtemp0                      (abs)        007E
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 34 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  a               1   43[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels required when called:    5
+ This function calls:
+		_Wifi_connect
+		_Wifi_mode
+		_canal_comunicacao
+		_delay
+		_dispLCD
+		_dispLCD_clr
+		_dispLCD_init
+		_fifo_filtro
+		_wifi_init
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _wifi_init *****************
+ Defined at:
+		line 13 in file "wifi.c"
+ Parameters:    Size  Location     Type
+  br              4   23[BANK0 ] long 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       4       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_initEUSART
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _initEUSART *****************
+ Defined at:
+		line 137 in file "eusart.c"
+ Parameters:    Size  Location     Type
+  baudRate        4   13[BANK0 ] unsigned long 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       6       0       0       0
+      Totals:         0      10       0       0       0
+Total ram usage:       10 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		___lldiv
+ This function is called by:
+		_wifi_init
+ This function uses a non-reentrant model
+
+
+ *************** function ___lldiv *****************
+ Defined at:
+		line 5 in file "C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c"
+ Parameters:    Size  Location     Type
+  divisor         4    0[BANK0 ] unsigned long 
+  dividend        4    4[BANK0 ] unsigned long 
+ Auto vars:     Size  Location     Type
+  quotient        4    8[BANK0 ] unsigned long 
+  counter         1   12[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  4    0[BANK0 ] unsigned long 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       8       0       0       0
+      Locals:         0       5       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         1      13       0       0       0
+Total ram usage:       14 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_initEUSART
+ This function uses a non-reentrant model
+
+
+ *************** function _fifo_filtro *****************
+ Defined at:
+		line 50 in file "fifo.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  d               1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_fifo_retirar
+		_fifo_tam
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _fifo_tam *****************
+ Defined at:
+		line 35 in file "fifo.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_fifo_filtro
+ This function uses a non-reentrant model
+
+
+ *************** function _fifo_retirar *****************
+ Defined at:
+		line 24 in file "fifo.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  aux             1    6[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         1       2       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_fifo_filtro
+ This function uses a non-reentrant model
+
+
+ *************** function _dispLCD_init *****************
+ Defined at:
+		line 150 in file "lcd.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       1       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_delay
+		_dispLCD_instReg
+		_dispLCD_newChar
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _dispLCD_newChar *****************
+ Defined at:
+		line 134 in file "lcd.c"
+ Parameters:    Size  Location     Type
+  adrs            1    wreg     unsigned char 
+  ptr             1    2[BANK0 ] PTR const unsigned char 
+		 -> newChar_degree(8), 
+ Auto vars:     Size  Location     Type
+  adrs            1    4[BANK0 ] unsigned char 
+  i               1    5[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       1       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       4       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_dispLCD_dataReg
+		_dispLCD_instReg
+ This function is called by:
+		_dispLCD_init
+ This function uses a non-reentrant model
+
+
+ *************** function _dispLCD_clr *****************
+ Defined at:
+		line 249 in file "lcd.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_dispLCD_instReg
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _dispLCD *****************
+ Defined at:
+		line 173 in file "lcd.c"
+ Parameters:    Size  Location     Type
+  lin             1   11[BANK0 ] unsigned char 
+  col             1   12[BANK0 ] unsigned char 
+  str             1   13[BANK0 ] PTR const unsigned char 
+		 -> vtr(33), 
+ Auto vars:     Size  Location     Type
+  cont            2   15[BANK0 ] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       3       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		___awdiv
+		_dispLCD_dataReg
+		_dispLCD_lincol
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _dispLCD_lincol *****************
+ Defined at:
+		line 128 in file "lcd.c"
+ Parameters:    Size  Location     Type
+  lin             1    wreg     unsigned char 
+  col             1    8[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  lin             1   10[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       1       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_dispLCD_instReg
+ This function is called by:
+		_dispLCD
+		_dispLCD_putChar
+		_dispLCDstr
+		_dispLCD_num
+ This function uses a non-reentrant model
+
+
+ *************** function _dispLCD_instReg *****************
+ Defined at:
+		line 79 in file "lcd.c"
+ Parameters:    Size  Location     Type
+  i               1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  i               1    6[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         1       2       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_dispLCD_lincol
+		_dispLCD_newChar
+		_dispLCD_init
+		_dispLCD_clr
+ This function uses a non-reentrant model
+
+
+ *************** function _dispLCD_dataReg *****************
+ Defined at:
+		line 112 in file "lcd.c"
+ Parameters:    Size  Location     Type
+  d               1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  d               1    0[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         1       1       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_dispLCD_newChar
+		_dispLCD
+		_dispLCD_putChar
+		_dispLCDstr
+		_dispLCD_num
+ This function uses a non-reentrant model
+
+
+ *************** function ___awdiv *****************
+ Defined at:
+		line 5 in file "C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[BANK0 ] int 
+  dividend        2    2[BANK0 ] int 
+ Auto vars:     Size  Location     Type
+  quotient        2    6[BANK0 ] int 
+  sign            1    5[BANK0 ] unsigned char 
+  counter         1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       4       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         1       8       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_dispLCD
+		_dispLCD_num
+ This function uses a non-reentrant model
+
+
+ *************** function _canal_comunicacao *****************
+ Defined at:
+		line 173 in file "wifi.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_delay
+		_wifi_send
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Wifi_mode *****************
+ Defined at:
+		line 47 in file "wifi.c"
+ Parameters:    Size  Location     Type
+  d               1    4[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       1       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       1       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_delay
+		_wifi_send
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Wifi_connect *****************
+ Defined at:
+		line 79 in file "wifi.c"
+ Parameters:    Size  Location     Type
+  ssid            1    4[BANK0 ] PTR const unsigned char 
+		 -> STR_1(4), 
+  pass            1    5[BANK0 ] PTR const unsigned char 
+		 -> STR_2(9), 
+ Auto vars:     Size  Location     Type
+  str            30   10[BANK0 ] unsigned char [30]
+  i               1   40[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       2       0       0       0
+      Locals:         0      31       0       0       0
+      Temps:          0       4       0       0       0
+      Totals:         0      37       0       0       0
+Total ram usage:       37 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_delay
+		_wifi_send
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _wifi_send *****************
+ Defined at:
+		line 18 in file "wifi.c"
+ Parameters:    Size  Location     Type
+  msg             2    0[BANK0 ] PTR const unsigned char 
+		 -> STR_16(38), STR_15(38), Wifi_cipsend@vtr(20), Wifi_cipsend@str(20), 
+		 -> STR_14(38), STR_13(14), STR_12(18), STR_11(11), 
+		 -> STR_10(11), Wifi_connect@str(30), STR_9(14), STR_8(36), 
+		 -> STR_7(14), STR_6(14), STR_5(36), STR_4(14), 
+		 -> STR_3(14), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       2       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_txEUSART
+		_txStatusEUSART
+ This function is called by:
+		_Wifi_mode
+		_Wifi_connect
+		_Wifi_scan
+		_Wifi_ip
+		_Wifi_autoconnect
+		_Wifi_config_servidor
+		_Wifi_cipsend
+		_canal_comunicacao
+		_Wifi_config_cliente
+ This function uses a non-reentrant model
+
+
+ *************** function _txStatusEUSART *****************
+ Defined at:
+		line 126 in file "eusart.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_wifi_send
+ This function uses a non-reentrant model
+
+
+ *************** function _txEUSART *****************
+ Defined at:
+		line 115 in file "eusart.c"
+ Parameters:    Size  Location     Type
+  d               1    6[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         1       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_wifi_send
+ This function uses a non-reentrant model
+
+
+ *************** function _delay *****************
+ Defined at:
+		line 12 in file "delay.c"
+ Parameters:    Size  Location     Type
+  t               2    0[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       2       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         0       4       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+		_dispLCD_init
+		_Wifi_mode
+		_Wifi_connect
+		_canal_comunicacao
+		_Wifi_config_servidor
+		_Wifi_cipsend
+ This function uses a non-reentrant model
+
+
+ *************** function _isr *****************
+ Defined at:
+		line 12 in file "interrupt.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          3       0       0       0       0
+      Totals:         3       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_fifo_inserir
+ This function is called by:
+		Interrupt level 1
+ This function uses a non-reentrant model
+
+
+ *************** function _fifo_inserir *****************
+ Defined at:
+		line 17 in file "fifo.c"
+ Parameters:    Size  Location     Type
+  d               1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  d               1    2[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         3       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_isr
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+delay.c
+		_delay         		CODE           	0FB4	0000	32
+
+delay.c estimated size: 32
+
+eusart.c
+		_txEUSART      		CODE           	0F12	0000	6
+		_initEUSART    		CODE           	0713	0000	85
+		_txStatusEUSART		CODE           	0F2E	0000	11
+
+eusart.c estimated size: 102
+
+fifo.c
+		_fifo_filtro   		CODE           	04F2	0000	131
+		_fifo_tam      		CODE           	0F1E	0000	9
+		_fifo_retirar  		CODE           	00E2	0000	31
+		_fifo_inserir  		CODE           	0F5C	0000	22
+
+fifo.c estimated size: 193
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
+		___lldiv       		CODE           	05E7	0000	112
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c estimated size: 112
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
+		___awdiv       		CODE           	0574	0000	116
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c estimated size: 116
+
+interrupt.c
+		_isr           		CODE           	0F86	0000	23
+
+interrupt.c estimated size: 23
+
+shared
+		__stringtab    		STRING         	0100	0000	17
+		_newChar_degree		STRING         	0110	0000	9
+		__initialization		CODE           	0011	0000	64
+		__fptable      		ENTRY          	0054	0000	40
+
+shared estimated size: 130
+
+wifi.c
+		_wifi_init     		CODE           	0F38	0000	18
+		_wifi_send     		CODE           	07A7	0000	63
+		_Wifi_connect  		CODE           	02E9	0000	215
+		_Wifi_mode     		CODE           	03BF	0000	176
+		_canal_comunicacao		CODE           	0F9C	0000	25
+
+wifi.c estimated size: 497
+
+lcd.c
+		_dispLCD_lincol		CODE           	0F71	0000	22
+		_dispLCD_dataReg		CODE           	0FD3	0000	46
+		_dispLCD_instReg		CODE           	046E	0000	133
+		_dispLCD_newChar		CODE           	0767	0000	65
+		_dispLCD       		CODE           	0656	0000	96
+		_dispLCD_clr   		CODE           	0F17	0000	8
+		_dispLCD_init  		CODE           	06B5	0000	95
+
+lcd.c estimated size: 465
+
+main.c
+		_main          		CODE           	01F5	0000	245
+
+main.c estimated size: 245
+

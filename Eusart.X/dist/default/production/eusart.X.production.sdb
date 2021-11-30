@@ -1,0 +1,427 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"12 Z:\Eusart.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+"50 Z:\Eusart.X\eusart.c
+[v _rxEUSART rxEUSART `(uc  1 e 1 0 ]
+"62
+[v _rxStatusEUSART rxStatusEUSART `(uc  1 e 1 0 ]
+"76
+[v _rxErrorEUSART rxErrorEUSART `(uc  1 e 1 0 ]
+"92
+[v _rxResetErrorEUSART rxResetErrorEUSART `(v  1 e 1 0 ]
+"115
+[v _txEUSART txEUSART `(v  1 e 1 0 ]
+"126
+[v _txStatusEUSART txStatusEUSART `(uc  1 e 1 0 ]
+"137
+[v _initEUSART initEUSART `(v  1 e 1 0 ]
+"160
+[v _search search `(i  1 e 2 0 ]
+"17 Z:\Eusart.X\fifo.c
+[v _fifo_inserir fifo_inserir `(v  1 e 1 0 ]
+"24
+[v _fifo_retirar fifo_retirar `(uc  1 e 1 0 ]
+"35
+[v _fifo_tam fifo_tam `(uc  1 e 1 0 ]
+"50
+[v _fifo_filtro fifo_filtro `(v  1 e 1 0 ]
+"12 Z:\Eusart.X\interrupt.c
+[v _isr isr `II(v  1 e 1 0 ]
+"79 Z:\Eusart.X\lcd.c
+[v _dispLCD_instReg dispLCD_instReg `(v  1 e 1 0 ]
+"112
+[v _dispLCD_dataReg dispLCD_dataReg `(v  1 e 1 0 ]
+"128
+[v _dispLCD_lincol dispLCD_lincol `(v  1 e 1 0 ]
+"134
+[v _dispLCD_newChar dispLCD_newChar `(v  1 e 1 0 ]
+"150
+[v _dispLCD_init dispLCD_init `(v  1 e 1 0 ]
+"173
+[v _dispLCD dispLCD `(v  1 e 1 0 ]
+"190
+[v _dispLCDstr dispLCDstr `(v  1 e 1 0 ]
+"206
+[v _dispLCD_num dispLCD_num `(v  1 e 1 0 ]
+"249
+[v _dispLCD_clr dispLCD_clr `(v  1 e 1 0 ]
+"255
+[v _dispLCD_B0 dispLCD_B0 `(uc  1 e 1 0 ]
+"260
+[v _dispLCD_B1 dispLCD_B1 `(uc  1 e 1 0 ]
+"34 Z:\Eusart.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"13 Z:\Eusart.X\wifi.c
+[v _wifi_init wifi_init `(v  1 e 1 0 ]
+"18
+[v _wifi_send wifi_send `(v  1 e 1 0 ]
+"28
+[v _wifi_receive wifi_receive `(uc  1 e 1 0 ]
+"47
+[v _Wifi_mode Wifi_mode `(v  1 e 1 0 ]
+"79
+[v _Wifi_connect Wifi_connect `(v  1 e 1 0 ]
+"109
+[v _Wifi_scan Wifi_scan `(v  1 e 1 0 ]
+"114
+[v _Wifi_ip Wifi_ip `(v  1 e 1 0 ]
+"119
+[v _Wifi_autoconnect Wifi_autoconnect `(v  1 e 1 0 ]
+"123
+[v _Wifi_config_servidor Wifi_config_servidor `(v  1 e 1 0 ]
+"128
+[v _Wifi_config_cliente Wifi_config_cliente `(v  1 e 1 0 ]
+"134
+[v _Wifi_cipsend Wifi_cipsend `(v  1 e 1 0 ]
+"173
+[v _canal_comunicacao canal_comunicacao `(v  1 e 1 0 ]
+[s S29 . 7 `*.27(v 1 init 1 0 `*.27(v 1 print 1 1 `*.27(v 1 printpos 1 2 `*.27(v 1 printv 1 3 `*.27(v 1 clr 1 4 `*.27(uc 1 B0 1 5 `*.27(uc 1 B1 1 6 ]
+"16 Z:\Eusart.X/ihm.h
+[v _lcd lcd `S29  1 e 7 0 ]
+[s S102 . 12 `*.27(v 1 init 1 0 `*.27(v 1 send 1 1 `*.27(uc 1 receive 1 2 `*.27(v 1 mode 1 3 `*.27(v 1 connect 1 4 `*.27(v 1 ip 1 5 `*.27(v 1 autoconnect 1 6 `*.27(v 1 scan 1 7 `*.27(v 1 config_servidor 1 8 `*.27(v 1 config_cliente 1 9 `*.27(v 1 cipsend 1 10 `*.27(v 1 canal_comunicacao 1 11 ]
+"44 Z:\Eusart.X/wifi.h
+[v _wifi wifi `S102  1 e 12 0 ]
+[s S510 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"482 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
+[s S519 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S524 . 1 `S510 1 . 1 0 `S519 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES524  1 e 1 @11 ]
+[s S407 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"553
+[u S415 . 1 `S407 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES415  1 e 1 @12 ]
+[s S426 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"1068
+[s S435 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S439 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S442 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S445 . 1 `S426 1 . 1 0 `S435 1 . 1 0 `S439 1 . 1 0 `S442 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES445  1 e 1 @24 ]
+"1133
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1140
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+[s S260 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1619
+[u S269 . 1 `S260 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES269  1 e 1 @136 ]
+[s S577 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"1718
+[u S585 . 1 `S577 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES585  1 e 1 @140 ]
+[s S473 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2582
+[s S482 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S486 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S489 . 1 `S473 1 . 1 0 `S482 1 . 1 0 `S486 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES489  1 e 1 @152 ]
+[s S556 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"3352
+[u S565 . 1 `S556 1 . 1 0 ]
+[v _BAUDCTLbits BAUDCTLbits `VES565  1 e 1 @391 ]
+[s S348 eusartT 8 `*.27(uc 1 rx 1 0 `*.27(uc 1 rxSTATUS 1 1 `*.27(uc 1 rxERROR 1 2 `*.27(v 1 rxResetERROR 1 3 `*.27(v 1 tx 1 4 `*.27(uc 1 txSTATUS 1 5 `*.27(v 1 init 1 6 `*.27(i 1 search_string 1 7 ]
+"26 Z:\Eusart.X\eusart.c
+[v _eusart eusart `S348  1 e 8 0 ]
+[s S542 . 2 `uc 1 LO 1 0 `uc 1 HI 1 1 ]
+"41
+[s S545 . 2 `ui 1 u16 2 0 ]
+[u S547 . 2 `S542 1 . 2 0 `S545 1 . 2 0 ]
+[v _SPBRbits SPBRbits `VES547  1 e 2 @153 ]
+"12 Z:\Eusart.X\fifo.c
+[v _fifo fifo `[16]uc  1 e 16 0 ]
+"13
+[v _fifo_head fifo_head `uc  1 e 1 0 ]
+"14
+[v _fifo_tail fifo_tail `uc  1 e 1 0 ]
+"46
+[v _indice indice `uc  1 e 1 0 ]
+"47
+[v _vtr vtr `[33]uc  1 e 33 0 ]
+[s S249 . 1 `uc 1 BUS 1 0 :4:0 
+`uc 1 RS 1 0 :1:4 
+`uc 1 EN 1 0 :1:5 
+`uc 1 B0 1 0 :1:6 
+`uc 1 B1 1 0 :1:7 
+]
+"27 Z:\Eusart.X\lcd.c
+[u S255 . 1 `S249 1 . 1 0 ]
+[v _LCDbits LCDbits `VES255  1 e 1 @8 ]
+"31
+[v _newChar_degree newChar_degree `DC[8]uc  1 e 8 0 ]
+"77 Z:\Eusart.X\wifi.c
+[v _aux aux `[10]*.39uc  1 e 20 0 ]
+"34 Z:\Eusart.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"66
+[v main@a a `uc  1 a 1 43 ]
+"75
+} 0
+"13 Z:\Eusart.X\wifi.c
+[v _wifi_init wifi_init `(v  1 e 1 0 ]
+{
+[v wifi_init@br br `l  1 p 4 23 ]
+"16
+} 0
+"137 Z:\Eusart.X\eusart.c
+[v _initEUSART initEUSART `(v  1 e 1 0 ]
+{
+[v initEUSART@baudRate baudRate `ul  1 p 4 13 ]
+"158
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"50 Z:\Eusart.X\fifo.c
+[v _fifo_filtro fifo_filtro `(v  1 e 1 0 ]
+{
+"54
+[v fifo_filtro@d d `uc  1 a 1 4 ]
+"75
+} 0
+"35
+[v _fifo_tam fifo_tam `(uc  1 e 1 0 ]
+{
+"38
+} 0
+"24
+[v _fifo_retirar fifo_retirar `(uc  1 e 1 0 ]
+{
+"26
+[v fifo_retirar@aux aux `uc  1 a 1 6 ]
+"33
+} 0
+"150 Z:\Eusart.X\lcd.c
+[v _dispLCD_init dispLCD_init `(v  1 e 1 0 ]
+{
+"170
+} 0
+"134
+[v _dispLCD_newChar dispLCD_newChar `(v  1 e 1 0 ]
+{
+[v dispLCD_newChar@adrs adrs `uc  1 a 1 wreg ]
+"136
+[v dispLCD_newChar@i i `uc  1 a 1 5 ]
+"134
+[v dispLCD_newChar@adrs adrs `uc  1 a 1 wreg ]
+[v dispLCD_newChar@ptr ptr `*.24DCuc  1 p 1 2 ]
+"137
+[v dispLCD_newChar@adrs adrs `uc  1 a 1 4 ]
+"141
+} 0
+"249
+[v _dispLCD_clr dispLCD_clr `(v  1 e 1 0 ]
+{
+"252
+} 0
+"173
+[v _dispLCD dispLCD `(v  1 e 1 0 ]
+{
+"175
+[v dispLCD@cont cont `i  1 a 2 15 ]
+"173
+[v dispLCD@lin lin `uc  1 p 1 11 ]
+[v dispLCD@col col `uc  1 p 1 12 ]
+[v dispLCD@str str `*.4DCuc  1 p 1 13 ]
+"188
+} 0
+"128
+[v _dispLCD_lincol dispLCD_lincol `(v  1 e 1 0 ]
+{
+[v dispLCD_lincol@lin lin `uc  1 a 1 wreg ]
+[v dispLCD_lincol@lin lin `uc  1 a 1 wreg ]
+[v dispLCD_lincol@col col `uc  1 p 1 8 ]
+"130
+[v dispLCD_lincol@lin lin `uc  1 a 1 10 ]
+"131
+} 0
+"79
+[v _dispLCD_instReg dispLCD_instReg `(v  1 e 1 0 ]
+{
+[v dispLCD_instReg@i i `uc  1 a 1 wreg ]
+[v dispLCD_instReg@i i `uc  1 a 1 wreg ]
+"81
+[v dispLCD_instReg@i i `uc  1 a 1 6 ]
+"109
+} 0
+"112
+[v _dispLCD_dataReg dispLCD_dataReg `(v  1 e 1 0 ]
+{
+[v dispLCD_dataReg@d d `uc  1 a 1 wreg ]
+[v dispLCD_dataReg@d d `uc  1 a 1 wreg ]
+"114
+[v dispLCD_dataReg@d d `uc  1 a 1 0 ]
+"125
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"173 Z:\Eusart.X\wifi.c
+[v _canal_comunicacao canal_comunicacao `(v  1 e 1 0 ]
+{
+"177
+} 0
+"47
+[v _Wifi_mode Wifi_mode `(v  1 e 1 0 ]
+{
+[v Wifi_mode@d d `uc  1 p 1 4 ]
+"75
+} 0
+"79
+[v _Wifi_connect Wifi_connect `(v  1 e 1 0 ]
+{
+"82
+[v Wifi_connect@str str `[30]uc  1 a 30 10 ]
+"81
+[v Wifi_connect@i i `uc  1 a 1 40 ]
+"79
+[v Wifi_connect@ssid ssid `*.24DCuc  1 p 1 4 ]
+[v Wifi_connect@pass pass `*.24DCuc  1 p 1 5 ]
+"81
+[v Wifi_connect@F1399 F1399 `[30]uc  1 s 30 F1399 ]
+"107
+} 0
+"18
+[v _wifi_send wifi_send `(v  1 e 1 0 ]
+{
+[v wifi_send@msg msg `*.26DCuc  1 p 2 0 ]
+"26
+} 0
+"126 Z:\Eusart.X\eusart.c
+[v _txStatusEUSART txStatusEUSART `(uc  1 e 1 0 ]
+{
+"129
+} 0
+"115
+[v _txEUSART txEUSART `(v  1 e 1 0 ]
+{
+[v txEUSART@d d `uc  1 p 1 6 ]
+"118
+} 0
+"12 Z:\Eusart.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+{
+[v delay@t t `ui  1 p 2 0 ]
+"19
+} 0
+"12 Z:\Eusart.X\interrupt.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"19
+} 0
+"17 Z:\Eusart.X\fifo.c
+[v _fifo_inserir fifo_inserir `(v  1 e 1 0 ]
+{
+[v fifo_inserir@d d `uc  1 a 1 wreg ]
+[v fifo_inserir@d d `uc  1 a 1 wreg ]
+"19
+[v fifo_inserir@d d `uc  1 a 1 2 ]
+"21
+} 0
